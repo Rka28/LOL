@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   const [Champions, setChampions] = useState();
-  const [] = useState();
+
 
   useEffect(() => {
     fetch('https://ddragon.leagueoflegends.com/cdn/14.7.1/data/fr_FR/champion.json')
@@ -23,7 +23,7 @@ function App() {
   if (Champions) {
     Object.values(Champions).map((champion) => {
       console.log(champion)
-      
+
       return
     })
 
